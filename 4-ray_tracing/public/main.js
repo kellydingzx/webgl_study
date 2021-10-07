@@ -74,7 +74,7 @@ RaytracingDemo.prototype.initShaders = function() {
 	//getRenderTargetHeight()
     gl.uniform2f(
 		gl.getUniformLocation(this.shaderProgram, "g_resolution"),
-		240,180
+		1500,900
         );
 }
 
@@ -137,6 +137,8 @@ function compute(canvas)
 
     env.drawScene();
 }
+
+//added
 const canvas = document.querySelector('canvas');
 initGL(canvas);
 init();
