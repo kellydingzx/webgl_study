@@ -74,7 +74,7 @@ RaytracingDemo.prototype.initShaders = function() {
 	//getRenderTargetHeight()
     gl.uniform2f(
 		gl.getUniformLocation(this.shaderProgram, "g_resolution"),
-		1500,900
+		750,450
         );
 }
 
